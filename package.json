@@ -1,0 +1,23 @@
+{
+  "name": "learnix-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "EventEmitter": "^1.0.0",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/node": "^22.2.0"
+  }
+}
